@@ -1,0 +1,32 @@
+p
+{
+	text-align: right;
+}
+.logo
+{
+	width: 50px;
+}
+.connexion-form
+{
+	width: 450px;
+	padding:10px;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+.carousel-caption
+{
+	top:20px;
+	bottom:auto;
+}
+.group.list-group-image
+{
+	width: 400px;
+	height: 250px;
+
+}
+.p1
+{
+	text-align: left;
+}

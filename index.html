@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>resto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img alt="Brand" src="image/bonap.png" class="logo">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">menu <span class="sr-only">(current)</span></a></li>
+					<li><a href="notre-entreprise.html">entreprise</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">a propos <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="concept.html">concept</a></li>
+							<li><a href="#">notre equipe</a></li>
+							<li><a href="#">contacter nous</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">panier</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">connexion <span class="caret"></span></a>
+						<ul class="dropdown-menu connexion-form">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Remember me
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-default">Sign in</button>
+									</div>
+								</div>
+							</form>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<img class="d-block w-100" src="image/local.jpg" alt="Second slide">
+				<div class="carousel-caption">
+					<h3>Bien manger prend du temp</br>(pas forcement chez nous)</h3>
+				</div>
+			</div>
+			<div class="item active">
+				<img class="d-block w-100" src="image/restaurant.jpg" alt="Third slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container">
+		
+			<div id="products" class="row list-group">
+				<div class="item  col-xs-2 col-md-6">
+					<div class="thumbnail">
+						<img class="group list-group-image" src="image/poisson.jpg" alt="" />
+						<div class="caption">
+							<h4 class="group inner list-group-item-heading">
+							fait maison pour notre brigade</h4>
+							<p class="group inner list-group-item-text">
+								Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							<div class="row">
+								<div class="col-xs-2 col-md-6">
+									<p class="lead">
+									$21.000</p>
+								</div>
+								<div class="col-xs-2 col-md-6">
+									<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item  col-xs-2 col-md-6">
+					<div class="thumbnail">
+						<img class="group list-group-image" src="image/pate.jpg" alt="" />
+						<div class="caption">
+							<h4 class="group inner list-group-item-heading">
+							commendez en trois clic</h4>
+							<p class="group inner list-group-item-text">
+								Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							<div class="row">
+								<div class="col-xs-2 col-md-6">
+									<p class="lead">
+									$21.000</p>
+								</div>
+								<div class="col-xs-2 col-md-6">
+									<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item  col-xs-2 col-md-6">
+					<div class="thumbnail">
+						<img class="group list-group-image" src="image/couscous.jpg" alt="" />
+						<div class="caption">
+							<h4 class="group inner list-group-item-heading">
+							réchauffez en deux minutes</h4>
+							<p class="group inner list-group-item-text">
+								Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							<div class="row">
+								<div class="col-xs-2 col-md-6">
+									<p class="lead">
+									$21.000</p>
+								</div>
+								<div class="col-xs-2 col-md-6">
+									<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item  col-xs-2 col-md-6">
+					<div class="thumbnail">
+						<img class="group list-group-image" src="image/salade.jpeg" alt="" />
+						<div class="caption">
+							<h4 class="group inner list-group-item-heading">
+							midi et soir 6/7j</br>brunch le dimanche</h4>
+							<p class="group inner list-group-item-text">
+							Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						<div class="row">
+							<div class="col-xs-2 col-md-6">
+								<p class="lead">
+								$21.000</p>
+							</div>
+							<div class="col-xs-2 col-md-6">
+								<a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$('.carousel').carousel({
+			interval: 2000
+		})
+	</script>
+
+
+</body>
+</html>
