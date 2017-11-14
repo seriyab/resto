@@ -1,7 +1,4 @@
-p
-{
-	text-align: right;
-}
+
 .logo
 {
 	width: 50px;
@@ -29,4 +26,24 @@ p
 .p1
 {
 	text-align: left;
+
 }
+.text-align
+{
+	text-align: center;
+	color: red;
+}
+.taille
+{
+	width: 200px;
+	border: 2px solid black;
+	text-align: justify;
+	padding: 10px;
+}
+.box
+{
+	border: 2px solid black;
+	text-align: justify;
+	padding: 10px;
+	
+}		
