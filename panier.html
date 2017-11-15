@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<table class="table">
+			  <thead>
+			    <tr><th>Article</th><th>Prix</th><th>Quantité</th></tr>
+			  </thead>
+			  <tbody id="cart-tablebody">
+			  	<tr>
+			  		<td>Article </td>
+			  		<td>500 euro</td>
+			  		<td>3</td>
+			  	</tr>
+			  </tbody>
+			</table>
+        </div>
+
+        <div class="col-md-4">
+        		<p class="text-left">Sous total : <span class="subtotal"></span>€</p>
+				<button id="confirm-command" class="text-center btn btn-danger">Passer la commande</button>	
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
