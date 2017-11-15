@@ -35,11 +35,12 @@
 }
 .taille
 {
-	width: 200px;
+	width: 350px;
 	border: 2px solid black;
 	text-align: justify;
 	padding: 10px;
-}
+	height: 250px;
+
 .box
 {
 	border: 2px solid black;
