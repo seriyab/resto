@@ -40,6 +40,7 @@
 	text-align: justify;
 	padding: 10px;
 	height: 250px;
+}
 
 .box
 {
@@ -49,11 +50,13 @@
 
 }		
 
-.main-container {
+.main-container 
+{
 	background: #f1f1f1;
 }
 
-.second-section {
+.second-section 
+{
 	margin-top: 20px;
 	padding-top: 20px;
 }
@@ -61,4 +64,13 @@
 {
 	margin-top: 20px;
 	padding-top: 20px;
+}
+.btn-default
+{
+	background-color: red;
+	color: white;
+}
+.main-row
+{
+	border-radius: 2px solid black;
 }
